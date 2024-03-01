@@ -1,0 +1,37 @@
+.contact-style {
+  width: 100px;
+  margin: 4px;
+}
+.contactBox {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 80px 1fr;
+  border: 5px solid #b1ff2e;
+  border-radius: 10px;
+  padding: 25px;
+  grid-gap: 5px;
+  column-gap: 10px;
+  text-align: center;
+  justify-items: center;
+  margin: 36px;
+}
+.contact-style {
+  width: 200px;
+}
+.contactDetails {
+  grid-column: 1/5;
+  grid-row: 1;
+}
+.contactLink {
+  grid-row: 2;
+}
+.collapsibleContact {
+  margin-bottom: 50px;
+}
+.contactInfo {
+  text-decoration: underline;
+}
+.contactInfo:hover {
+  cursor: pointer;
+}

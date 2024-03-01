@@ -1,0 +1,50 @@
+.projectWindow {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(2 1fr);
+  justify-self: center;
+  overflow-y: auto;
+}
+.projectTitles {
+  display: none;
+}
+.individualProjects {
+  display: grid;
+  grid-gap: 5px;
+  grid-column: 1;
+  border: solid #b1ff2e;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: slategray;
+}
+.groupProjects {
+  display: grid;
+  grid-gap: 5px;
+  grid-column: 2;
+  border: solid #b1ff2e;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: slategray;
+}
+.project {
+  border: solid #464545;
+  border-radius: 5px;
+}
+.projectBox {
+  display: grid;
+  justify-content: center;
+  align-self: center;
+  grid-template-columns: 1fr;
+  border: 5px solid #b1ff2e;
+  border-radius: 10px;
+  padding: 25px;
+  grid-gap: 5px;
+  column-gap: 10px;
+  text-align: center;
+  justify-items: center;
+  margin: 36px;
+}
+.projectImage {
+  max-width: 300px;
+  max-height: 200px;
+}
