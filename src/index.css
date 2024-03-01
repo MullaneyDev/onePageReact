@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Nunito&display=swap");
 
+:root {
+  --main-one:#F2F2F2;
+  --main-two:#736D63;
+  --main-three:#F2E6D0;
+  --main-four:#3F403B;
+  --main-five:#7C8C58;
+}
+
 body {
   margin: 0;
-  background-color: slategray;
+  background-color: var(--main-one);
   font-family: "Nunito", sans-serif;
 }

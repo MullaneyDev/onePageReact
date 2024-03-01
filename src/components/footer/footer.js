@@ -13,6 +13,8 @@ import sql from "../../images/techstack/mysql-ar21.svg";
 import node from "../../images/techstack/nodejs-logo-FBE122E377-seeklogo.com.png";
 import sequelize from "../../images/techstack/images.png";
 
+import cv from "./cv.pdf"
+
 const Footer = () => {
   return (
     <div className="brandsig">
@@ -41,6 +43,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="brandsig-content-right">
+        <a href={cv} download="Matthew Mullaney CV.pdf"><button className="cvDownload" >Download CV</button></a>
         <a
           href="https://github.com/MullaneyDev"
           target="_blank"

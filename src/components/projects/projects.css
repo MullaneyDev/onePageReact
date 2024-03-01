@@ -12,22 +12,22 @@
   display: grid;
   grid-gap: 5px;
   grid-column: 1;
-  border: solid #b1ff2e;
+  border: solid var(--main-five);
   border-radius: 5px;
   padding: 5px;
-  background-color: slategray;
+  background-color: var(--main-one);
 }
 .groupProjects {
   display: grid;
   grid-gap: 5px;
   grid-column: 2;
-  border: solid #b1ff2e;
+  border: solid var(--main-five);
   border-radius: 5px;
   padding: 5px;
-  background-color: slategray;
+  background-color: var(--main-one);
 }
 .project {
-  border: solid #464545;
+  border: solid var(--main-four);
   border-radius: 5px;
 }
 .projectBox {
@@ -35,7 +35,7 @@
   justify-content: center;
   align-self: center;
   grid-template-columns: 1fr;
-  border: 5px solid #b1ff2e;
+  border: 5px solid var(--main-five);
   border-radius: 10px;
   padding: 25px;
   grid-gap: 5px;

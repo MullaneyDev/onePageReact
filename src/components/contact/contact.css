@@ -7,7 +7,7 @@
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 80px 1fr;
-  border: 5px solid #b1ff2e;
+  border: 5px solid var(--main-five);
   border-radius: 10px;
   padding: 25px;
   grid-gap: 5px;

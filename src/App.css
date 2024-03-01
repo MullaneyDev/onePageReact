@@ -2,6 +2,6 @@
   text-align: center;
 }
 a {
-  color: #b1ff2e;
+  color: var(--main-five);
   text-decoration: none;
 }
