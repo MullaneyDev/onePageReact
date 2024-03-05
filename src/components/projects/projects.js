@@ -1,11 +1,11 @@
 import React from "react";
 import "./projects.css";
 
-import bluey from "../../images/projectImages/bluey.png";
-import calculator from "../../images/projectImages/calculator.png";
-import cats4lyf from "../../images/projectImages/cats4lyf.png";
-import tamogotchi from "../../images/projectImages/tamogotchi.png";
-import todolist from "../../images/projectImages/todolist.png";
+import bluey from "../../images/gifs/bluey.gif";
+import calculator from "../../images/gifs/calculator.gif";
+import cats4lyf from "../../images/gifs/cats4lyf.gif";
+import tamogotchi from "../../images/gifs/tamogotchi.gif";
+import todolist from "../../images/gifs/todo.gif";
 import promptelex from "../../images/projectImages/promptelex.png";
 import boxedoff from "../../images/projectImages/boxedoff.png";
 

@@ -12,7 +12,7 @@
   display: grid;
   grid-gap: 5px;
   grid-column: 1;
-  border: solid var(--main-five);
+  /* border: solid var(--main-five); */
   border-radius: 5px;
   padding: 5px;
   background-color: var(--main-one);
@@ -21,7 +21,7 @@
   display: grid;
   grid-gap: 5px;
   grid-column: 2;
-  border: solid var(--main-five);
+  /* border: solid var(--main-five); */
   border-radius: 5px;
   padding: 5px;
   background-color: var(--main-one);
@@ -35,7 +35,7 @@
   justify-content: center;
   align-self: center;
   grid-template-columns: 1fr;
-  border: 5px solid var(--main-five);
+  /* border: 5px solid var(--main-five); */
   border-radius: 10px;
   padding: 25px;
   grid-gap: 5px;

@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="brandsig-content-center">
-        <div className="sig">
+        {/* <div className="sig">
           <p>Website created by</p>
         </div>
         <div className="logo">
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
         <div className="brand">
           <p>MullaneyDev</p>
-        </div>
+        </div> */}
       </div>
       <div className="brandsig-content-right">
         <a href={cv} download="Matthew Mullaney CV.pdf"><button className="cvDownload" >Download CV</button></a>
