@@ -86,7 +86,7 @@
   background-color: var(--main-five);
 }
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .brandsig {
     display: flex;
     bottom: 0%;
@@ -121,7 +121,7 @@
     padding-right: 7px;
   }
   .brandsig-content-right {
-    display: none;
+    display: flex;
     position: fixed;
     bottom: 0%;
     right: 0%;
@@ -131,6 +131,7 @@
     justify-content: right;
   }
   .icon-style {
+    display: none;
     height: 30px;
     margin-left: 20px;
     margin-top: 0px;
@@ -141,4 +142,22 @@
     background: #b1ff2e;
     padding: 2px;
   }
-} */
+  .cvDownload {
+  border-radius: 10px;
+  background-color: var(--main-one);
+  color: var(--main-four);
+  height: 35px;
+  max-width: 20vw;
+  margin-bottom: 10px;
+}
+.cvDownload:hover {
+  background-color: var(--main-five);
+}
+.techStack{
+  font-size: small;
+  max-width: 70vw;
+}
+.techStackImg {
+  max-width: 20px;
+}
+}

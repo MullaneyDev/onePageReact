@@ -46,6 +46,7 @@ const contact = () => {
               target="_blank"
               rel="noreferrer"
               className="contactLink"
+              id="github"
             >
               <img src={github} className="contact-style" alt="GitHub Logo" />
             </a>
@@ -54,6 +55,7 @@ const contact = () => {
               target="_blank"
               rel="noreferrer"
               className="contactLink"
+              id="twitter"
             >
               <img src={twitter} className="contact-style" alt="Twitter logo" />
             </a>
@@ -62,11 +64,12 @@ const contact = () => {
               target="_blank"
               rel="noreferrer"
               className="contactLink"
+              id="linkedin"
             >
               <img src={linkedin} className="contact-style" alt="LinkedIn" />
             </a>
-            <a href="mailto:matt.mullaney@live.co.uk" className="contactLink">
-              <img src={mail} className="contact-style" alt="Email icon" />
+            <a href="mailto:matt.mullaney@live.co.uk" className="contactLink" id="mail">
+              <img src={mail} className="contact-style"  alt="Email icon" />
             </a>
           </div>
         </div>

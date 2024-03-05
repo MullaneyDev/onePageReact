@@ -48,3 +48,57 @@
   max-width: 300px;
   max-height: 200px;
 }
+
+@media only screen and (max-width: 600px) {
+  .projectWindow {
+  display: grid;
+  grid-gap: 5px;
+  /* grid-template-columns: repeat(2 1fr); */
+  justify-self: center;
+  overflow-y: auto;
+}
+.projectTitles {
+  display: inline;
+text-decoration: underline;
+}
+.individualProjects {
+  display: grid;
+  grid-gap: 5px;
+  grid-column: 1;
+  border: solid var(--main-five);
+  border-radius: 5px;
+  padding: 5px;
+  background-color: var(--main-one);
+}
+.groupProjects {
+  display: grid;
+  grid-gap: 5px;
+  grid-column: 1;
+  border: solid var(--main-five);
+  border-radius: 5px;
+  padding: 5px;
+  background-color: var(--main-one);
+}
+.project {
+  border: solid var(--main-four);
+  border-radius: 5px;
+}
+.projectBox {
+  display: grid;
+  justify-content: center;
+  align-self: center;
+  grid-template-columns: 1fr;
+  /* border: 5px solid var(--main-five); */
+  border-radius: 10px;
+  padding: 25px;
+  grid-gap: 5px;
+  column-gap: 10px;
+  text-align: center;
+  justify-items: center;
+  margin: 36px;
+}
+.projectImage {
+  max-width: 300px;
+  max-height: 200px;
+}
+}

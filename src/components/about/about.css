@@ -32,3 +32,36 @@
   grid-column: 1/3;
   grid-row: 2;
 }
+
+@media only screen and (max-width: 600px) {
+.aboutBox {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  border: 5px solid var(--main-five);
+  border-radius: 10px;
+  padding: 25px;
+  grid-gap: 5px;
+  column-gap: 10px;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+.photo {
+  max-height: 150px;
+  grid-column: 1;
+  grid-row: 1;
+}
+.aboutInfo {
+  grid-row: 2;
+}
+.moreInfo {
+  text-decoration: underline;
+}
+.moreInfo:hover {
+  cursor: pointer;
+}
+.collapsible {
+  grid-row: 3;
+}
+}
